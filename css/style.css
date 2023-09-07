@@ -39,6 +39,7 @@ body {
 
 header {
   background: #FFF;
+  height: 43px;
 }
 
 .header__list {
@@ -48,7 +49,6 @@ header {
   display: flex;
   margin-top: 27px;
   margin-right: -89px;
-  margin-bottom: 158px;
 } 
 
 .header__item {
@@ -67,8 +67,14 @@ header {
 }
 
 .header__item > a:active {
+  color: burlywood;
+}
+
+.header__item>a:visited {
   color: red;
 }
+
+
 
 /* JOHN */
 
@@ -89,6 +95,7 @@ header {
   width: 440px;
   height: 105px;
   margin-bottom: 40px;
+  margin-top: 158px;
 }
 
 .technologist > p {
@@ -117,7 +124,7 @@ header {
   height: 243px;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 158px;
 }
 
 /* POSTS */
@@ -195,6 +202,8 @@ header {
 
 .works__item {
   display: flex;
+  margin-bottom: 47px;
+  margin-top: 43px;
 }
 
 .works__item > img {
@@ -203,7 +212,6 @@ header {
   height: 180px;
   border-radius: 6px;
   margin-right: 18px;
-  margin-bottom: 25px;
 }
 
 .works__portfolio > h2 {
@@ -257,4 +265,75 @@ footer p {
   font-size: 14px;
   margin-bottom: 54px;
 }
+/* BLOG */
 
+.block {
+  margin-top: 90px;
+  margin-bottom: 55px;
+  color: #21243D;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.block__item p:first-child {
+  color: #21243D;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.time {
+  color: #21243D;
+  font-size: 20px;
+  margin-bottom: 16px;
+  }
+
+.block__item p:nth-child(3) {
+  color: #21243D;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.block__line {
+  width: 992px;
+  height: 1px;
+  background-color:rgba(224, 224, 224, 1);
+  margin-bottom: 32px;
+}
+
+.works__portfolio__dash {
+  margin-top: 78px;
+}
+
+.works__portfolio__dash h2 {
+  margin-bottom: 30px;
+  width: 506px;
+  color: #21243D;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.text {
+  width: 681px;
+  height: 44px;
+}
+
+.works__portfolio__img {
+  margin-top: 30px;
+}
+
+.head1 {
+  color: #21243D;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-top: 27px;
+}
+
+.head2 {
+  color: #21243D;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 60px;
+}
